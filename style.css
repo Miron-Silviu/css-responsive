@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  height: 100vb;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Dancing Script', cursive;
+}
+
+#heder-section {
+  background-color: lightgrey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+#logo {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.header-class {
+  align-items: center;
+  display: flex;
+}
+.nav-bar,
+ul {
+  display: flex;
+  padding-inline-end: 15px;
+  align-items: center;
+  gap: 15px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+a:focus,
+a:hover {
+  outline: 1px dotted;
+  font-size: clamp(1rem, 0.75 + 1.7vw, 2rem);
+}
+#main-section {
+  text-align: center;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  display: grid;
+  /* flex-wrap: wrap; */
+}
+#earth-picture {
+  max-inline-size: 50em;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+}
+.class-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-evenly;
+  width: 350px;
+  height: auto;
+  align-items: center;
+  margin: auto;
+}
+.container {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(175, 175, 175);
+}
+#text-title {
+  text-align: center;
+}
+.footer {
+  background-color: lightgrey;
+  flex-shrink: 0;
+  margin-block-start: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 780px) {
+  /* body {
+    background-color: black;
+    color: white;
+  } */
+
+  #earth-picture {
+    font-size: clamp(1rem, 0.75 + 1.7vw, 2rem);
+  }
+  #text-title {
+    font-size: clamp(1rem, 0.75 + 1.7vw, 2rem);
+  }
+  a:focus,
+  a:hover {
+    outline: 1px dotted;
+    font-size: clamp(1rem, 0.75 + 1.7vw, 2rem);
+  }
+
+  body {
+    display: grid;
+  }
+  .nav-bar,
+  ul {
+    display: block;
+  }
+  #main-section {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-block-end: 20px;
+    margin-block-start: 20px;
+  }
+
+  #earth-picture {
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+}
