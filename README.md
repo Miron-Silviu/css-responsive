@@ -26,7 +26,7 @@ Users should be able to:
 
 # Screenshot
 
-[image](https://github.com/Miron-Silviu/css-responsive/assets/119732322/37453371-3318-448d-8a7c-3d35bb904d4e)
+![image](https://github.com/Miron-Silviu/css-responsive/assets/119732322/bbaf146c-aade-49b9-a509-90561006e5aa)
 
 
 
