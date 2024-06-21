@@ -22,7 +22,7 @@ Users should be able to:
 
 # LINK
 
-[CLICK ME FOR LIVE VIEW ](https://miron-silviu.github.io/css-responsive/)
+[VIEW DEOM](https://miron-silviu.github.io/css-responsive/)
 
 # Screenshot
 
